@@ -1,0 +1,50 @@
+@use '../../utils/' as *;
+.badhon{
+    & h1{
+        color:red;
+    }
+}
+
+.dc-transparent{
+    width:80%;
+    
+    height:80px;
+    background-color: red;
+    position: absolute;
+    margin-top:100px;
+    margin-left:120px;
+    
+
+}
+.hero{
+    position: relative;
+}
+.menu{
+    ul {
+        list-style-type:none;
+        li{
+          color:brown;
+          display: inline-block;
+        }
+    }
+}
+.test{
+   .a1{
+       border: 2px solid red;
+        & p{
+            color:red;
+        }
+    }
+    .a2{
+        border: 2px solid red;
+         & p{
+             color:red;
+         }
+     }
+     .a3{
+        border: 2px solid red;
+         & p{
+             color:red;
+         }
+     }
+}
